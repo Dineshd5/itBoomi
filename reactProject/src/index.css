@@ -3,7 +3,7 @@ section {
   padding: 20px;
   border-radius: 20px;
   color: white;
-  box-shadow: 1px 15px 15px;
+  box-shadow: 1px 5px 10px;
 }
 
 .aboutme {
@@ -42,32 +42,45 @@ img {
   font-weight: 100;
 }
 
+.parent-container {
+  display: grid;
+  grid-template-columns: 50% 500px;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+.child-container {
+  display: grid;
+  gap: 20px;
+}
+.child-container1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.child-container2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
 .container1 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
+  grid-column: span 3;
 }
 
 .container2 {
-  background-color: hsl(0, 0%, 100%);
-  color: black;
+  background-color: hsl(217, 19%, 35%);
 }
 
 .container3 {
-  background-color: hsl(217, 19%, 35%);
-  height: 50vh;
+  background-color: hsl(0, 0%, 100%);
+  color: black;
 }
 .container4 {
-  grid-column-start: 4;
   background-color: hsl(0, 0%, 100%);
   color: black;
 }
 .container5 {
   background-color: hsl(219, 29%, 14%);
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 10px;
+  grid-column: span 3;
 }
