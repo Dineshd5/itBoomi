@@ -1,0 +1,73 @@
+section {
+  background-color: hsl(263, 55%, 52%);
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 1px 15px 15px;
+}
+
+.aboutme {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.decription {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
+}
+
+img {
+  border: 30px;
+  border-radius: 30px;
+  border-color: white;
+  border: 2px solid white;
+}
+
+.imgBlock {
+  display: flex;
+}
+
+.job {
+  margin-left: 10px;
+
+  font-family: "Barlow Semi Condensed", serif;
+}
+
+.span {
+  display: block;
+  font-size: small;
+  font-weight: 100;
+}
+
+.container1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+}
+
+.container2 {
+  background-color: hsl(0, 0%, 100%);
+  color: black;
+}
+
+.container3 {
+  background-color: hsl(217, 19%, 35%);
+  height: 50vh;
+}
+.container4 {
+  grid-column-start: 4;
+  background-color: hsl(0, 0%, 100%);
+  color: black;
+}
+.container5 {
+  background-color: hsl(219, 29%, 14%);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
